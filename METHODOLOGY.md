@@ -14,13 +14,21 @@ Professional cryptocurrency index builder replicating S&P Global methodologies.
 - Automated daily reports
 - Anomaly detection integration
 
-## Usage
-```python
-# To generate the index
-run_index_engine()
+ 
 ## Free-Float Adjustment Factors  
-| Coin       | Adjustment Factor | Reason                     |  
-|------------|-------------------|----------------------------|  
-| Bitcoin    | 78%               | Lost coins, long-term holds |  
-| Ethereum   | 85%               | Moderate staking           |  
-| Stablecoins| 95%               | High circulation           |  
+| Asset      | Factor | Reason                          |  
+|------------|--------|---------------------------------|  
+| Bitcoin    | 78%    | Lost coins, long-term holdings  |  
+| Ethereum   | 85%    | Moderate staking                |  
+| Tether     | 95%    | High circulation stability      |  
+| Default    | 80%    | General assumption              |  
+
+## Liquidity Screening Criteria  
+- Minimum daily volume: $1,000,000 USD  
+- Must be traded on ≥ 3 reputable exchanges  
+- Stablecoin trading pairs required  
+
+## Rebalancing Rules  
+- Monthly review (first Friday of month)  
+- 5% buffer zone for weight changes  
+- Emergency rebalance if >30% price move in 24h  
