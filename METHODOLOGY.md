@@ -1,12 +1,14 @@
-# S&P-Style Crypto Index Methodology
-## Key Features
-- Free-float adjusted market cap weighting
-- Liquidity screening ($1M+ daily volume)
-- Monthly rebalancing
-- Anomaly detection integration
+# S&P-Style Crypto Index Engine
+Professional cryptocurrency index builder replicating S&P Global methodologies.
 
-## Calculation Steps
-1. Fetch top 10 cryptocurrencies by market cap
-2. Apply free-float adjustment
-3. Filter assets with >$1M daily volume
-4. Calculate percentage weights
+[Index Composition](snp_crypto_index.png)
+
+## How to Use
+1. Run `s&p_crypto_index.ipynb` in Jupyter
+2. Outputs: 
+   - CSV file with index weights
+   - PNG chart visualization
+
+## Next Features
+- Daily automation
+- Historical backtesting
