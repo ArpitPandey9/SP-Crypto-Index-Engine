@@ -17,3 +17,9 @@ Professional cryptocurrency index builder replicating S&P Global methodologies.
 ```python
 # To generate the index
 run_index_engine()
+## Free-Float Adjustment Factors  
+| Coin       | Adjustment Factor | Reason                     |  
+|------------|-------------------|----------------------------|  
+| Bitcoin    | 78%               | Lost coins, long-term holds |  
+| Ethereum   | 85%               | Moderate staking           |  
+| Stablecoins| 95%               | High circulation           |  
