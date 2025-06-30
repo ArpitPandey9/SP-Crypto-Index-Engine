@@ -1,0 +1,9 @@
+# Day 4: Free-Float Market Cap Mastery
+
+## Concepts Learned
+- Free-float = Only tradable coins/shares
+- Why S&P uses this: Prevents index distortion
+- Calculation: `(Circulating Supply - Locked Coins) / Circulating Supply`
+
+## Professional Implementation
+See `free_float_calculator.py` for S&P-grade function
