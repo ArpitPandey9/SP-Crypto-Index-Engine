@@ -5,7 +5,7 @@
 Professional cryptocurrency index builder replicating S&P Global methodologies.
 
 ## Index Composition
-https://github.com/ArpitPandey9/SP-Crypto-Index-Engine/blob/main/snp_crypto_index.png
+![Index Composition](https://raw.githubusercontent.com/ArpitPandey9/SP-Crypto-Index-Engine/main/snp_crypto_index.png)
 
 ## Key Features
 - Free-float adjusted market cap weighting
