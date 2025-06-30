@@ -1,7 +1,7 @@
 # S&P-Style Crypto Index Engine
 Professional cryptocurrency index builder replicating S&P Global methodologies.
 
-[Index Composition](snp_crypto_index.png)
+![Index Composition](snp_crypto_index.png)
 
 ## How to Use
 1. Run `s&p_crypto_index.ipynb` in Jupyter
