@@ -1,1 +1,1 @@
-# S-P-Crypto-Index-Engine
+# S&P-Crypto-Index-Engine
