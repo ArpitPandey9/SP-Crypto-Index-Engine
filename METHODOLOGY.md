@@ -1,11 +1,12 @@
 # S&P-Style Crypto Index Engine
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Quant Research](https://img.shields.io/badge/Field-Quant_Finance-blue)
 
 Professional cryptocurrency index builder replicating S&P Global methodologies.
 
 ## Index Composition
-![Index Composition](https://raw.githubusercontent.com/ArpitPandey9/SP-Crypto-Index-Engine/main/snp_crypto_index.png)
+![S&P Crypto Index](https://raw.githubusercontent.com/ArpitPandey9/SP-Crypto-Index-Engine/main/snp_crypto_index.png)
 
 ## Key Features
 - Free-float adjusted market cap weighting
